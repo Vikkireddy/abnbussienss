@@ -6,21 +6,44 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "extract": "npx tsx app/scripts/extract.ts"
   },
   "dependencies": {
-    "next": "16.1.1",
-    "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "@emotion/cache": "^11.14.0",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/material": "^6.1.6",
+    "@mui/material-nextjs": "^6.5.0",
+    "@reduxjs/toolkit": "^2.11.2",
+    "dotenv": "^17.2.3",
+    "fast-xml-parser": "^5.3.3",
+    "fs-extra": "^11.3.3",
+    "mysql2": "^3.16.0",
+    "next": "^15.5.9",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-redux": "^9.2.0",
+    "sax": "^1.4.1",
+    "styled-components": "^6.1.13",
+    "twin.macro": "^3.4.1",
+    "unzipper": "^0.12.3"
   },
   "devDependencies": {
+    "@babel/core": "^7.25.2",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/styled-components": "^5.1.34",
+    "autoprefixer": "^10.4.23",
+    "babel-plugin-macros": "^3.1.0",
+    "cosmiconfig": "^9.0.0",
     "eslint": "^9",
     "eslint-config-next": "16.1.1",
-    "tailwindcss": "^4",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18",
+    "tsx": "^4.19.2",
     "typescript": "^5"
   }
 }
